@@ -40,7 +40,7 @@ tab3.image('https://static.streamlit.io/examples/owl.jpg',width=200)
 #------------------------------------------------------------------------
 
 #Dynamic
-imgs=pd.read_csv('/Users/KIIT/Desktop/Animesh Program/Streamlit Project/imgs.csv')['img_link']
+imgs=pd.read_csv('imgs.csv')['img_link']
 
 tabs=st.tabs(['ID']*30)
 
